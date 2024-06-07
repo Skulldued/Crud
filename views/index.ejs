@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+   <div class="w-full h-screen bg-zinc-800 p-10">
+    <div class="py-8">
+        <a href="/read" class="text-white p-2 rounded-xl text-2xl bg-red-500">Read Users</a>
+    </div>
+    <form action="/create" method="post">
+        <input type="text" class="px-2 py-5 text-white outline-none rounded bg-transparent border-2 border-sky-800" name="name" placeholder="Enter Name">
+        <input type="email" class="px-2 py-5 text-white outline-none rounded bg-transparent border-2 border-sky-800" name="email" placeholder="Enter Email">
+        <input type="text" name="image" class="px-2 text-white py-5 outline-none rounded bg-transparent border-2 border-sky-800" placeholder="Images url">
+        <input type="submit"  class="px-6 py-5 bg-sky-500 text-white outline-none rounded  border-2 border-sky-800" value="Submit">
+    </form>
+   </div>
+</body>
+</html>
